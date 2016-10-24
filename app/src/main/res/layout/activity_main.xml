@@ -12,4 +12,11 @@
         android:layout_height="wrap_content"
         android:onClick="onClickButtonStation"
         android:text="@string/he_stations"/>
+
+    <Button
+        android:id="@+id/closest_station_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickClosestStationButton"
+        android:text="@string/he_closest_station" />
 </LinearLayout>

@@ -34,7 +34,15 @@ public class MainActivity extends Activity {
     }
 
     public void onClickButtonStation(View view) {
-        Intent intent = new Intent(this, StationsActivity.class);
+        Intent intent = new Intent(this, StationsListActivity.class);
+        Bundle data = new Bundle();
+        data.putParcelableArrayList("STATIONS", stations);
+        intent.putExtras(data);
+        startActivity(intent);
+    }
+
+    public void onClickClosestStationButton(View view) {
+        Intent intent = new Intent(this, ClosestStationActivity.class);
         Bundle data = new Bundle();
         data.putParcelableArrayList("STATIONS", stations);
         intent.putExtras(data);

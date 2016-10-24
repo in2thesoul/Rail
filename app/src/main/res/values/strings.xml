@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="he_stations">תחנות</string>
+    <string name="he_closest_station">התחנה הקרובה ביותר</string>
+    <string name="closest_station_intro">התחנה הקרובה ביותר אלייך היא</string>
 </resources>
